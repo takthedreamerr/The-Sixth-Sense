@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      hoodies sprite_0: 7120839180948665364
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
