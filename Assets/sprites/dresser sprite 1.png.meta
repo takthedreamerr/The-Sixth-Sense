@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dresser sprite 1_0: 4539391813486018976
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
