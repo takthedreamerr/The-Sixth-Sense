@@ -4,10 +4,10 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 
+
 public class MOVEMENTS : MonoBehaviour
 {
     public float moveSpeed = 5f; // Speed of movement
-
     // Update is called once per frame
     void Update()
     {
