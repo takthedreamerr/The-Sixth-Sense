@@ -1,0 +1,656 @@
+fileFormatVersion: 2
+guid: a1ceb0f76e568bd44aa1d9f9c970707a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6160247533489324648
+    second: Movement sprites(MOD) 3_0
+  - first:
+      213: 6736290679218346816
+    second: Movement sprites(MOD) 3_1
+  - first:
+      213: 148866619381514362
+    second: Movement sprites(MOD) 3_2
+  - first:
+      213: 5419314965074208217
+    second: Movement sprites(MOD) 3_3
+  - first:
+      213: 3954358509220037401
+    second: Movement sprites(MOD) 3_4
+  - first:
+      213: 2631382225384305134
+    second: Movement sprites(MOD) 3_5
+  - first:
+      213: -5101716930090579289
+    second: Movement sprites(MOD) 3_6
+  - first:
+      213: 3896774664441287647
+    second: Movement sprites(MOD) 3_7
+  - first:
+      213: -154709741735407428
+    second: Movement sprites(MOD) 3_8
+  - first:
+      213: 5989829254850335162
+    second: Movement sprites(MOD) 3_9
+  - first:
+      213: -5587201538061887209
+    second: Movement sprites(MOD) 3_10
+  - first:
+      213: -4985781391757996101
+    second: Movement sprites(MOD) 3_11
+  - first:
+      213: 499186851377403964
+    second: Movement sprites(MOD) 3_12
+  - first:
+      213: 6798419371380654215
+    second: Movement sprites(MOD) 3_13
+  - first:
+      213: -3297658555674790123
+    second: Movement sprites(MOD) 3_14
+  - first:
+      213: 7187387855077709604
+    second: Movement sprites(MOD) 3_15
+  - first:
+      213: -6443243549926756374
+    second: Movement sprites(MOD) 3_16
+  - first:
+      213: 7900992115234052984
+    second: Movement sprites(MOD) 3_17
+  - first:
+      213: -7201903836098114578
+    second: Movement sprites(MOD) 3_18
+  - first:
+      213: -6636005695388055607
+    second: Movement sprites(MOD) 3_19
+  - first:
+      213: -6163599476566988910
+    second: Movement sprites(MOD) 3_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 83.12
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Movement sprites(MOD) 3_0
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 899
+        width: 151
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b6c1839d5aa9e43b715275df73dcb0
+      internalID: 1152944073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Movement sprites(MOD) 3_1
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 899
+        width: 151
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4186830bf6185d41b77f64f02dbb0e0
+      internalID: 1372240226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Movement sprites(MOD) 3_2
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 899
+        width: 151
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d563f5bf0f91c944b8053a406c2820e
+      internalID: -1864432929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Movement sprites(MOD) 3_3
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 899
+        width: 151
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5199e127c923a84dadfd955c2b08025
+      internalID: 1356797324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Movement sprites(MOD) 3_4
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 718
+        width: 151
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3104832182d114e98c49d912b1c104
+      internalID: -1902661074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Movement sprites(MOD) 3_5
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 718
+        width: 151
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70bb652c088e0e4aaf8ef38c473ab69
+      internalID: 745338960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Movement sprites(MOD) 3_6
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 718
+        width: 151
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f71c6f64402ab498e3da107ff60b4b
+      internalID: -646063455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Movement sprites(MOD) 3_7
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 718
+        width: 151
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa96e727372472e4782b83e5e5756148
+      internalID: -1754017396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Movement sprites(MOD) 3_8
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 537
+        width: 151
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116bcd78dda6a5d45a88407eed00a136
+      internalID: -1796263489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Movement sprites(MOD) 3_9
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 537
+        width: 151
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc43cb5b90d98eb49811d7ab78ac0d68
+      internalID: -1121909368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Movement sprites(MOD) 3_10
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 537
+        width: 151
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b603838a6135c414b9df9850ea005067
+      internalID: -2018660600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Movement sprites(MOD) 3_11
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 537
+        width: 151
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1af6c5719ef0049bc36824d298cd86
+      internalID: 985744774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Movement sprites(MOD) 3_12
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 537
+        width: 151
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036389b28e2a25f409fc1f9e4f424dd9
+      internalID: 147700988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Movement sprites(MOD) 3_13
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 356
+        width: 151
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088cd4863ae6b844ca94fa3921b1ec68
+      internalID: 1491321981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Movement sprites(MOD) 3_14
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 356
+        width: 151
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2f7378dd6cf624ca49787eb8b1294c
+      internalID: -461498162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Movement sprites(MOD) 3_15
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 356
+        width: 151
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a782669396d89ff419a3271a56bb21eb
+      internalID: -855792557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Movement sprites(MOD) 3_16
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 356
+        width: 151
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171e5fcfb435fab43b65689d26cd39ab
+      internalID: 141084171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Movement sprites(MOD) 3_17
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 175
+        width: 151
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449a1fb33d9a0c64f92cd2a2828221cf
+      internalID: 1914033724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Movement sprites(MOD) 3_18
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 175
+        width: 151
+        height: 181
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3308a00cd8aaf439cd69aa1c155876
+      internalID: 221980983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5ca87bdeef874fe4ea6950dbff17bf00
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Movement sprites(MOD) 3_0: 1152944073
+      Movement sprites(MOD) 3_1: 1372240226
+      Movement sprites(MOD) 3_10: -2018660600
+      Movement sprites(MOD) 3_11: 985744774
+      Movement sprites(MOD) 3_12: 147700988
+      Movement sprites(MOD) 3_13: 1491321981
+      Movement sprites(MOD) 3_14: -461498162
+      Movement sprites(MOD) 3_15: -855792557
+      Movement sprites(MOD) 3_16: 141084171
+      Movement sprites(MOD) 3_17: 1914033724
+      Movement sprites(MOD) 3_18: 221980983
+      Movement sprites(MOD) 3_2: -1864432929
+      Movement sprites(MOD) 3_3: 1356797324
+      Movement sprites(MOD) 3_4: -1902661074
+      Movement sprites(MOD) 3_5: 745338960
+      Movement sprites(MOD) 3_6: -646063455
+      Movement sprites(MOD) 3_7: -1754017396
+      Movement sprites(MOD) 3_8: -1796263489
+      Movement sprites(MOD) 3_9: -1121909368
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
