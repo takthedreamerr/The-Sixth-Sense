@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ktlego plant _0: 304241481649919210
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

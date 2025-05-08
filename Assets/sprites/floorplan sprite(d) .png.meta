@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      floorplan sprite(d) _0: 5836787505692892090
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

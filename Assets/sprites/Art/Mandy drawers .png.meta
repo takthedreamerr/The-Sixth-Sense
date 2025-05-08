@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Mandy drawers _0: -5040738449904181093
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

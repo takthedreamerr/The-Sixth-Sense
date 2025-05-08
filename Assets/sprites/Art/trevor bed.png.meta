@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      trevor bed_0: -8939026215091417228
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

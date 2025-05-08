@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Trevor wardrope_0: 3264435312772329292
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

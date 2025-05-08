@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      caren rug _0: 1396471585051851947
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

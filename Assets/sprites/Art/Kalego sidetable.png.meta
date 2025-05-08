@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Kalego sidetable_0: -1263829207817865052
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

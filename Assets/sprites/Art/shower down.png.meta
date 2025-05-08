@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      shower down_0: -8690737026661709030
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

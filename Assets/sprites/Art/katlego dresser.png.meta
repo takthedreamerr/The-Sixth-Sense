@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      katlego dresser_0: 7171310702500484780
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

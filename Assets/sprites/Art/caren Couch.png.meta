@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      caren Couch_0: -6813409147154054864
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

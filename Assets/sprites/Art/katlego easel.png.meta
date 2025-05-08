@@ -198,7 +198,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      katlego easel_0: -4635254987747862072
+      katlego easel_1: -5392370446380517010
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

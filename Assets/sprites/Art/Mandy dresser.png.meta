@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Mandy dresser_0: -8379983956544225896
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

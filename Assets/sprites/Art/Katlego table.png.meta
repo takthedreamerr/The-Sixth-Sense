@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Katlego table_0: 8633492391774654367
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

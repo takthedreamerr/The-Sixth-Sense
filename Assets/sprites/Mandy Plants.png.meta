@@ -198,7 +198,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Mandy Plants_0: -6436869100396978214
+      Mandy Plants_1: 5065662310720195207
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

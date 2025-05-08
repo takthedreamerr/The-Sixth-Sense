@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      nkosi couch_0: -376579354005209286
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
