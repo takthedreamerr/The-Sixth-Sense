@@ -40,5 +40,9 @@ public class MOVEMENTS : MonoBehaviour
             animator.SetFloat("LastMoveX", moveDirection.x);
             animator.SetFloat("LastMoveY", moveDirection.y);
         }
+
+        
     }
+
+
 }
