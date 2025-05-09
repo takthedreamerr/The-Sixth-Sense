@@ -273,7 +273,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      drawers movement sprite_0: 5042609113251234722
+      drawers movement sprite_1: -5639523960464122007
+      drawers movement sprite_2: 2225942918182349639
+      drawers movement sprite_3: -8449919861512960006
+      drawers movement sprite_4: -5042112790805502305
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

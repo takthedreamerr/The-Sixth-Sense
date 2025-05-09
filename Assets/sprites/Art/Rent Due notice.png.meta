@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Rent Due notice_0: 5048880623708488890
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
