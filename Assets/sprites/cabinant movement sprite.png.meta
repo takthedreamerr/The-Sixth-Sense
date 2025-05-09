@@ -198,7 +198,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cabinant movement sprite_0: -5073701574944269423
+      cabinant movement sprite_1: -6548115365472018537
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
