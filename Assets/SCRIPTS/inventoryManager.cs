@@ -16,4 +16,15 @@ public class InventoryManager : MonoBehaviour
             InventoryMenu.SetActive(menuActivated);
         }
     }
+
+ 
+ void RefreshInventory()
+{
+    if (Input.GetKeyDown(KeyCode.N))
+    {
+        Debug.Log("N key pressed");
+        menuActivated = !menuActivated;
+        InventoryMenu.SetActive(menuActivated);
+    }
+}
 }
