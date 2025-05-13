@@ -10,6 +10,7 @@ public class DoorScript : MonoBehaviour
     [Header("Lighting")]
     public Light2D globalLight;
     public Light2D playerLight;
+    public GameObject[] sixthSenseSymbols;
 
     void Start()
     {
@@ -29,6 +30,11 @@ public class DoorScript : MonoBehaviour
         if (globalLight != null) globalLight.enabled = true;
         if (playerLight != null) playerLight.enabled = true;
 
+        foreach (GameObject symbol in sixthSenseSymbols)
+        {
+            symbol.SetActive(true); // If you had them inactive before
+        }
+
         // Optional: disable collider after short delay
         StartCoroutine(DisableColliderAfterDelay(0.5f));
     }
@@ -38,6 +44,7 @@ public class DoorScript : MonoBehaviour
         yield return new WaitForSeconds(delay);
         doorCollider.enabled = false;
     }
+
 }
 
 
