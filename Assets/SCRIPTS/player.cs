@@ -35,10 +35,10 @@ public class MOVEMENTS : MonoBehaviour
         animator.SetBool("IsMoving", moveDirection != Vector3.zero);
 
         // Optional: Store last direction for idle facing
-        if (moveDirection != Vector3.zero)
+        //if (moveDirection != Vector3.zero)
         {
-            animator.SetFloat("LastMoveX", moveDirection.x);
-            animator.SetFloat("LastMoveY", moveDirection.y);
+           // animator.SetFloat("LastMoveX", moveDirection.x);
+            //animator.SetFloat("LastMoveY", moveDirection.y);
         }
 
         

@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.Rendering.Universal;
 
@@ -46,7 +46,7 @@ public class DoorScript : MonoBehaviour
         {
             if (symbol != null)
             {
-                symbol.SetActive(true); // This enables GameObject and AudioSource (if attached and enabled)
+                symbol.SetActive(true); // Enables GameObject and AudioSource
             }
         }
 
@@ -59,7 +59,9 @@ public class DoorScript : MonoBehaviour
         yield return new WaitForSeconds(delay);
         doorCollider.enabled = false;
     }
+    public void DisableLights()
+    {
+        if (globalLight != null) globalLight.enabled = false;
+        if (playerLight != null) playerLight.enabled = false;
+    }
 }
-
-
-
