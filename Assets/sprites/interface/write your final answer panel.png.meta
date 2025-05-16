@@ -323,7 +323,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      write your final answer panel_0: -212999294743335035
+      write your final answer panel_1: -1315033506314426206
+      write your final answer panel_2: 6292258037608495621
+      write your final answer panel_3: -7164032662868173230
+      write your final answer panel_4: -7594019131522852575
+      write your final answer panel_5: -5411925461926120151
+      write your final answer panel_6: 6479091038204309784
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -198,7 +198,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      murder weapon pieces_0: 3404574515944652133
+      murder weapon pieces_1: 4597101704241666139
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

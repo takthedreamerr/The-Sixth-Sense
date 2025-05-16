@@ -223,7 +223,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      congradulations panel_0: 8481210770704581836
+      congradulations panel_1: 5662595069299572879
+      congradulations panel_2: -2612744074119798603
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

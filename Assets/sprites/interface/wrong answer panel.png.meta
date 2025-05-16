@@ -323,7 +323,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      wrong answer panel_0: -3959103943931598242
+      wrong answer panel_1: 3514609141705717584
+      wrong answer panel_2: 5741964835900526387
+      wrong answer panel_3: 8140333561592259397
+      wrong answer panel_4: 1051405636177774051
+      wrong answer panel_5: -3821928050635422413
+      wrong answer panel_6: -1664774078502510948
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

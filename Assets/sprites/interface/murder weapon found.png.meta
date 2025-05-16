@@ -223,7 +223,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      murder weapon found_0: -654167594499437131
+      murder weapon found_1: -4435257301656541710
+      murder weapon found_2: -4715717145107473285
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
