@@ -20,6 +20,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/final selection.unity
     guid: cbf5f3223fa9687498fe0f01f7597895
+  - enabled: 1
+    path: Assets/Scenes/Right Answer.unity
+    guid: b4d51591cb0e2564793b197ab92490ff
+  - enabled: 1
+    path: Assets/Scenes/Wrong Answer.unity
+    guid: 103a597edc33e484facc9d6515a90cb1
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

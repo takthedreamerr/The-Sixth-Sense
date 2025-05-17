@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - Door
+  - RequiredItems
+  - requiredItems
   layers:
   - Default
   - TransparentFX
