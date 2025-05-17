@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/LEVEL MENU.unity
     guid: c2175ba10e3826b47892440a98a0b00f
   - enabled: 1
+    path: Assets/Scenes/level 1 recovery/Level1_REMOTE_1775.unity
+    guid: 386da112813ab9645a57d2514f1a4493
+  - enabled: 0
     path: Assets/Scenes/Level1.unity
     guid: eaa4f183055fe9f45b502d221dceb945
   - enabled: 1
