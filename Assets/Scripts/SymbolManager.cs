@@ -7,25 +7,24 @@ public class SymbolManager : MonoBehaviour
 {
     public static SymbolManager Instance;
 
-    [Header("Remember Sprite Settings")]
+   
     public Image rememberImage;
     public float fadeDuration = 1f;
     public float displayDuration = 2f;
 
-    [Header("Symbol Tracking")]
+   
     private int symbolsCollected = 0;
     private int totalSymbols = 8;
 
-    [Header("UI Panels")]
     public GameObject answerInputPanel;
     public GameObject congratulationsPanel;
     public GameObject retryPanel;
 
-    [Header("Answer Input")]
+    
     public InputField answerInputField;
 
-    [Header("Scene References")]
-    public DoorScript doorScript; // Reference to the door script that controls the lights
+  
+    public DoorScript doorScript; 
 
     private void Awake()
     {
@@ -40,13 +39,13 @@ public class SymbolManager : MonoBehaviour
 
         SetImageAlpha(0);
 
-        // Ensure panels start hidden
+       
         if (answerInputPanel != null) answerInputPanel.SetActive(false);
         if (congratulationsPanel != null) congratulationsPanel.SetActive(false);
         if (retryPanel != null) retryPanel.SetActive(false);
     }
 
-    // Called from symbol when collected
+   
     public void SymbolCollected()
     {
         symbolsCollected++;
@@ -95,7 +94,7 @@ public class SymbolManager : MonoBehaviour
     {
         answerInputPanel.SetActive(true);
 
-        // Turn off global and player light when panel shows
+        
         if (doorScript != null)
         {
             doorScript.DisableLights();
@@ -106,7 +105,7 @@ public class SymbolManager : MonoBehaviour
         }
     }
 
-    // Called by Submit button
+    
     public void CheckAnswer()
     {
         string answer = answerInputField.text.Trim().ToLower();
@@ -123,20 +122,20 @@ public class SymbolManager : MonoBehaviour
         }
     }
 
-    // Called by Retry button
+    
     public void RetryLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    public GameObject murderWeapon; // Assign this in the Inspector
+    public GameObject murderWeapon; 
 
     public void ProceedAfterCongratulations()
     {
-        // Hide congratulations panel
+        
         congratulationsPanel.SetActive(false);
 
-        // Show the murder weapon
+        
         if (murderWeapon != null)
         {
             murderWeapon.SetActive(true);
@@ -146,7 +145,7 @@ public class SymbolManager : MonoBehaviour
             Debug.LogWarning("Murder weapon reference is not set in the inspector.");
         }
 
-        // Optionally: resume gameplay logic or re-enable player controls
+        
     }
 
 }

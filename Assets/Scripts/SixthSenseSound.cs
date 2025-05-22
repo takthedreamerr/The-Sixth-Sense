@@ -2,24 +2,34 @@ using UnityEngine;
 
 public class SixthSenseSound : MonoBehaviour
 {
-    public Transform player;         // Reference to the player or camera
-    public AudioSource symbolAudio;  // The symbol’s AudioSource
-    public float maxDistance = 10f;  // Max distance where sound is still audible
+    public Transform player;         
+    public AudioSource symbolAudio;  
+    public float maxDistance = 10f;  
 
     private void Start()
     {
         if (symbolAudio != null) symbolAudio.Play();
     }
 
-    void Update()
+    private void Update()
     {
         if (player == null || symbolAudio == null) return;
 
         float distance = Vector3.Distance(player.position, transform.position);
-
-        // Invert the distance into volume
         float volume = Mathf.Clamp01(1 - (distance / maxDistance));
         symbolAudio.volume = volume;
     }
+
+    private void OnMouseDown()
+    {
+        
+        if (symbolAudio != null)
+        {
+            symbolAudio.Stop(); 
+        }
+
+        
+    }
 }
+
 

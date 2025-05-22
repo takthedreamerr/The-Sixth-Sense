@@ -2,10 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Title: Player
+//Author: Andy
+//Date accessed: 19 May 
+//Code Version: 1
+//Avaibility: Download Week 6 - Conditional Statements, Switch Statements & Player Input.pdf (771 KB)
+
+
 public class MOVEMENTS : MonoBehaviour
 {
-    public float moveSpeed = 5f; // Speed of movement
-    public Animator animator; // Drag your Animator here in the Inspector
+    public float moveSpeed = 5f; 
+    public Animator animator; 
 
     Vector2 movement;
 
@@ -23,19 +30,18 @@ public class MOVEMENTS : MonoBehaviour
         if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
             moveDirection.x += 1;
 
-        // Normalize movement
+        
         moveDirection = moveDirection.normalized;
 
-        // Move the player
+        
         transform.position += moveDirection * moveSpeed * Time.deltaTime;
 
-        // Update Animator Parameters
+      
         animator.SetFloat("MoveX", moveDirection.x);
         animator.SetFloat("MoveY", moveDirection.y);
         animator.SetBool("IsMoving", moveDirection != Vector3.zero);
 
-        // Optional: Store last direction for idle facing
-        //if (moveDirection != Vector3.zero)
+       
         {
            // animator.SetFloat("LastMoveX", moveDirection.x);
             //animator.SetFloat("LastMoveY", moveDirection.y);

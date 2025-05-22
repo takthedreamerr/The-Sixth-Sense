@@ -1,19 +1,24 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+ //Titel:Expandable UI Panel
+ //Author:Naledi 
+ //collaborator:ChatGPT (OpenAI)
+ //code Version: 1
+
 public class ExpandablePanel : MonoBehaviour
 {
-    public GameObject panel;     // Assign your panel in the Inspector
-    public Button toggleButton;  // Assign your button in the Inspector
+    public GameObject panel;     
+    public Button toggleButton;  
 
     private bool isPanelVisible = false;
 
     void Start()
     {
-        // Start with the panel hidden
+       
         panel.SetActive(false);
 
-        // Add listener to button
+        
         toggleButton.onClick.AddListener(TogglePanel);
     }
 

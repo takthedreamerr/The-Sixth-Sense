@@ -5,7 +5,7 @@ using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
-    [Header("UI Elements")]
+   
     public GameObject dialoguePanel;
     public TextMeshProUGUI dialogueText;
     public TextMeshProUGUI characterNameText;
@@ -19,7 +19,7 @@ public class DialogueManager : MonoBehaviour
     public string characterName;
     public Sprite characterSprite;
 
-    [Header("Typing Settings")]
+    
     public float typingSpeed = 0.05f;
 
     private int currentLine = 0;
@@ -50,7 +50,7 @@ public class DialogueManager : MonoBehaviour
         typingCoroutine = StartCoroutine(TypeSentence(dialogueLines[currentLine]));
 
         backButton.interactable = currentLine > 0;
-        continueButton.interactable = false; // Enabled after typing finishes
+        continueButton.interactable = false; 
     }
 
     IEnumerator TypeSentence(string sentence)

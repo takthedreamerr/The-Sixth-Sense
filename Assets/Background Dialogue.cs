@@ -11,14 +11,14 @@ public class BackgroundDialogue : MonoBehaviour
     private int index;
 
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    
     void Start()
     {
         textComponent.text = string.Empty;
-        StartDialogue();
+        
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -38,12 +38,12 @@ public class BackgroundDialogue : MonoBehaviour
 
 
 
-        void StartDialogue()
-        {
-            index = 0;
-            StartCoroutine(TypeLine());
+       // void StartDialogue()
+        //{
+           // index = 0;
+            //StartCoroutine(TypeLine());
 
-        }
+        //}
 
         IEnumerator TypeLine()
         {

@@ -6,6 +6,12 @@ using UnityEngine.SceneManagement;
 using TMPro;
 using UnityEngine.UI;
 
+//Title: Create LEVEL MENU in Unity: UI Design & Level Locking/Unlocking System!
+//Author: Rehope Games 
+//Date:   27 May 2023
+//Code Version: 1
+//Avaibility: https://www.youtube.com/watch?v=2XQsKNHk1vk&t=1s
+
 public class LoadSceneButton: MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -22,7 +28,7 @@ public class LoadSceneButton: MonoBehaviour
 
     public void PlayGame()
     {
-        SceneManager.LoadSceneAsync(3);
+        SceneManager.LoadSceneAsync(4);
     }
 }
 

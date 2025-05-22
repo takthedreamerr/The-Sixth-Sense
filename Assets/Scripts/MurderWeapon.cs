@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class MurderWeapon : MonoBehaviour
 {
-    public GameObject congratulationsPanel; // Assign in Inspector
+    public GameObject congratulationsPanel; 
 
     private bool hasBeenClicked = false;
 
@@ -13,7 +13,7 @@ public class MurderWeapon : MonoBehaviour
             hasBeenClicked = true;
             if (congratulationsPanel != null)
             {
-                congratulationsPanel.SetActive(true); // Show the panel
+                congratulationsPanel.SetActive(true); 
             }
         }
     }
