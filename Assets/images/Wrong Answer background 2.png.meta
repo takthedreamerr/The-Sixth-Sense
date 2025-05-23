@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 63946716663e19e4ab3baa82223b30ba
+guid: a5484b11400ea914dbb1fecbd4d07304
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -282100683360630181
-    second: sea broke_0
+      213: -6920520294671705079
+    second: Wrong Answer background 2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -122,33 +122,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< HEAD
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-=======
->>>>>>> fb7286db18591cc3ab5558b562d38df8e54e40fa
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sea broke_0
+      name: Wrong Answer background 2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1280
-        height: 1280
+        width: 3508
+        height: 2480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b5a05615ce6c51cf0800000000000000
-      internalID: -282100683360630181
+      spriteID: 90c163f557f55ff90800000000000000
+      internalID: -6920520294671705079
       vertices: []
       indices: 
       edges: []
@@ -176,12 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-<<<<<<< HEAD
-    nameFileIdTable:
-      sea broke_0: -282100683360630181
-=======
     nameFileIdTable: {}
->>>>>>> fb7286db18591cc3ab5558b562d38df8e54e40fa
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
