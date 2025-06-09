@@ -1,16 +1,37 @@
+   using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+public class Item : MonoBehaviour { }
+ 
+  
+namespace MyGame.Inventory
+{}
+//{
+    //public class Item : MonoBehaviour
+    //{
+        //[SerializeField]
+        //private string itemName;
 
-public class Item : MonoBehaviour
-{
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+        //[SerializeField]
+        //private int quantity;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-}
+        //[SerializeField]
+       // private Sprite sprite;
+
+       // private InventoryManager inventoryManager;
+
+       // void Start()
+        //{
+            //inventoryManager = GameObject.Find("InventoryCanvas").GetComponent<InventoryManager>();
+        //}
+
+       // private void OnCollisionEnter2D(Collision2D collision)
+        //{
+           // if (collision.gameObject.CompareTag("Player"))
+            //{
+                //inventoryManager.AddItem(itemName, quantity, sprite);
+               // Destroy(gameObject);
+            //}
+        //}
+    //}
+//}
