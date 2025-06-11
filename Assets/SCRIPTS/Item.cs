@@ -1,9 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-public class Items : MonoBehaviour { }
- 
-  
+  using UnityEngine;
+
 namespace MyGame.Inventory
 {}
 //{

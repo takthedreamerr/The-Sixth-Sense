@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine.UI;
 
 public class ItemSlot : MonoBehaviour
+
 {
     // ====== ITEM DATA ====== //
     public string itemName;
@@ -12,10 +13,14 @@ public class ItemSlot : MonoBehaviour
     public Sprite itemSprite;
     public bool isFull;
 
-    // ==== ITEM SLOT ==== //
-    [SerializeField] private TMP_Text quantityText;
-    [SerializeField] private Image itemImage;
+    // ====== UI COMPONENTS ====== //
+    [SerializeField]
+    private TMP_Text quantityText;
 
+    [SerializeField]
+    private Image itemImage;
+
+    // Adds item data to the slot and updates UI
     public void AddItem(string itemName, int quantity, Sprite itemSprite)
     {
         this.itemName = itemName;
@@ -23,24 +28,10 @@ public class ItemSlot : MonoBehaviour
         this.itemSprite = itemSprite;
         isFull = true;
 
-        // Update UI elements
         quantityText.text = quantity.ToString();
         quantityText.enabled = true;
+
         itemImage.sprite = itemSprite;
         itemImage.enabled = true;
-    }
-
-    public void ClearSlot()
-    {
-        itemName = string.Empty;
-        quantity = 0;
-        itemSprite = null;
-        isFull = false;
-
-        // Clear UI elements
-        quantityText.text = string.Empty;
-        quantityText.enabled = false;
-        itemImage.sprite = null;
-        itemImage.enabled = false;
     }
 }
