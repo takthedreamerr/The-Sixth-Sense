@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: b196ddce6d2add54ba0f178f5ab8a90f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4570563104549041663
+    second: Carens Apartment pin_0
+  - first:
+      213: -2474489484817397200
+    second: Carens Apartment pin_1
+  - first:
+      213: -7642779651288882811
+    second: Carens Apartment pin_2
+  - first:
+      213: 8112851666839018295
+    second: Carens Apartment pin_3
+  - first:
+      213: 2040074700231469148
+    second: Carens Apartment pin_4
+  - first:
+      213: -2341634953242207586
+    second: Carens Apartment pin_5
+  - first:
+      213: -5506840965000188658
+    second: Carens Apartment pin_6
+  - first:
+      213: -8740512919177329425
+    second: Carens Apartment pin_7
+  - first:
+      213: -4253126847325125443
+    second: Carens Apartment pin_8
+  - first:
+      213: -2326413030924650819
+    second: Carens Apartment pin_9
+  - first:
+      213: 3858349381870194154
+    second: Carens Apartment pin_10
+  - first:
+      213: 3867111477061987337
+    second: Carens Apartment pin_11
+  - first:
+      213: 5344390996196977155
+    second: Carens Apartment pin_12
+  - first:
+      213: -2702696951186921820
+    second: Carens Apartment pin_13
+  - first:
+      213: -5367237714604737939
+    second: Carens Apartment pin_14
+  - first:
+      213: 3301211968949017956
+    second: Carens Apartment pin_15
+  - first:
+      213: -3771893402340702001
+    second: Carens Apartment pin_16
+  - first:
+      213: 879504963192954691
+    second: Carens Apartment pin_17
+  - first:
+      213: 5483762715767479780
+    second: Carens Apartment pin_18
+  - first:
+      213: 1831864071474926056
+    second: Carens Apartment pin_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Carens Apartment pin_0
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 126
+        width: 117
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a09d182191290c0800000000000000
+      internalID: -4570563104549041663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carens Apartment pin_1
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 253
+        width: 339
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a05098ce8d8add0800000000000000
+      internalID: -2474489484817397200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carens Apartment pin_2
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 219
+        width: 25
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581a75c76646fe590800000000000000
+      internalID: -7642779651288882811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carens Apartment pin_3
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 102
+        width: 119
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b10657b93a69070800000000000000
+      internalID: 8112851666839018295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carens Apartment pin_4
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 118
+        width: 70
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c58ee8e812dcf4c10800000000000000
+      internalID: 2040074700231469148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carens Apartment pin_5
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 114
+        width: 55
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a1c52aa67d08fd0800000000000000
+      internalID: -2341634953242207586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carens Apartment pin_6
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 119
+        width: 75
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d289e9155c393b0800000000000000
+      internalID: -5506840965000188658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carens Apartment pin_7
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 111
+        width: 70
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe409b92fc573b680800000000000000
+      internalID: -8740512919177329425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carens Apartment pin_8
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 194
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db442889aabd9f4c0800000000000000
+      internalID: -4253126847325125443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carens Apartment pin_9
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 117
+        width: 54
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db675ea9cabe6bfd0800000000000000
+      internalID: -2326413030924650819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carens Apartment pin_10
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 60
+        width: 69
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed88b5025c9b8530800000000000000
+      internalID: 3858349381870194154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carens Apartment pin_11
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 118
+        width: 71
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90cad19466dbaa530800000000000000
+      internalID: 3867111477061987337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carens Apartment pin_12
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 106
+        width: 127
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30aed159b471b2a40800000000000000
+      internalID: 5344390996196977155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carens Apartment pin_13
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 116
+        width: 102
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6e8f041771e7ad0800000000000000
+      internalID: -2702696951186921820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carens Apartment pin_14
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 119
+        width: 75
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ab7e34cbdb385b0800000000000000
+      internalID: -5367237714604737939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carens Apartment pin_15
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 111
+        width: 70
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d59719bc240dd20800000000000000
+      internalID: 3301211968949017956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carens Apartment pin_16
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 106
+        width: 75
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc8c7d65fea87abc0800000000000000
+      internalID: -3771893402340702001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carens Apartment pin_17
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 153
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f1f4daa11a43c00800000000000000
+      internalID: 879504963192954691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carens Apartment pin_18
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 99
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed1ad1c22d3a1c40800000000000000
+      internalID: 5483762715767479780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carens Apartment pin_19
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 98
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e15019daa61c6910800000000000000
+      internalID: 1831864071474926056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Carens Apartment pin_0: -4570563104549041663
+      Carens Apartment pin_1: -2474489484817397200
+      Carens Apartment pin_10: 3858349381870194154
+      Carens Apartment pin_11: 3867111477061987337
+      Carens Apartment pin_12: 5344390996196977155
+      Carens Apartment pin_13: -2702696951186921820
+      Carens Apartment pin_14: -5367237714604737939
+      Carens Apartment pin_15: 3301211968949017956
+      Carens Apartment pin_16: -3771893402340702001
+      Carens Apartment pin_17: 879504963192954691
+      Carens Apartment pin_18: 5483762715767479780
+      Carens Apartment pin_19: 1831864071474926056
+      Carens Apartment pin_2: -7642779651288882811
+      Carens Apartment pin_3: 8112851666839018295
+      Carens Apartment pin_4: 2040074700231469148
+      Carens Apartment pin_5: -2341634953242207586
+      Carens Apartment pin_6: -5506840965000188658
+      Carens Apartment pin_7: -8740512919177329425
+      Carens Apartment pin_8: -4253126847325125443
+      Carens Apartment pin_9: -2326413030924650819
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

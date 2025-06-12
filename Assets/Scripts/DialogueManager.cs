@@ -5,37 +5,43 @@ using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
-    [Header("UI Elements")]
     public GameObject dialoguePanel;
     public TextMeshProUGUI dialogueText;
-    public TextMeshProUGUI characterNameText;
     public Image characterImage;
     public Button continueButton;
-    public Button backButton;
 
-    [Header("Dialogue Data")]
-    [TextArea(3, 10)]
     public string[] dialogueLines;
-    public string characterName;
     public Sprite characterSprite;
 
-    [Header("Typing Settings")]
     public float typingSpeed = 0.05f;
 
     private int currentLine = 0;
     private Coroutine typingCoroutine;
     private bool isTyping = false;
 
+    // References for signposting sequence
+    public GameObject player;
+    public GameObject signpostingObject;   // Assign the bouncing/clickable object
+    private CameraPan cameraPan;
+
     void Start()
     {
+        cameraPan = Camera.main.GetComponent<CameraPan>();
+
+        // Start dialogue at the beginning
         StartDialogue();
+
+        // Disable player movement while dialogue is active
+        player.GetComponent<MOVEMENTS>().enabled = false;
+
+        // Disable bouncing initially (handled in ObjectInteraction script)
+        signpostingObject.GetComponent<FloatingObject>().enabled = false;
     }
 
     public void StartDialogue()
     {
         currentLine = 0;
         dialoguePanel.SetActive(true);
-        characterNameText.text = characterName;
         characterImage.sprite = characterSprite;
         ShowLine();
     }
@@ -48,9 +54,7 @@ public class DialogueManager : MonoBehaviour
         }
 
         typingCoroutine = StartCoroutine(TypeSentence(dialogueLines[currentLine]));
-
-        backButton.interactable = currentLine > 0;
-        continueButton.interactable = false; // Enabled after typing finishes
+        continueButton.interactable = false;
     }
 
     IEnumerator TypeSentence(string sentence)
@@ -83,22 +87,22 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
+            // Dialogue ends
             dialoguePanel.SetActive(false);
-        }
-    }
 
-    public void PreviousDialogue()
-    {
-        if (isTyping)
-        {
-            SkipTyping();
-            return;
-        }
+            // Re-enable player movement
+            player.GetComponent<MOVEMENTS>().enabled = true;
 
-        if (currentLine > 0)
-        {
-            currentLine--;
-            ShowLine();
+            // Start the signposting sequence:
+            
+            cameraPan.StartPan();
+
+            
+            ObjectInteraction interaction = signpostingObject.GetComponent<ObjectInteraction>();
+            if (interaction != null)
+            {
+                interaction.StartSignposting();
+            }
         }
     }
 
@@ -114,6 +118,3 @@ public class DialogueManager : MonoBehaviour
         continueButton.interactable = currentLine < dialogueLines.Length - 1;
     }
 }
-
-
-

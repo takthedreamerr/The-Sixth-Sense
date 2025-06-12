@@ -38,12 +38,12 @@ public class BackgroundDialogue : MonoBehaviour
 
 
 
-        void StartDialogue()
-        {
-            index = 0;
-            StartCoroutine(TypeLine());
+        //void StartDialogue()
+        //{
+            //index = 0;
+            //StartCoroutine(TypeLine());
 
-        }
+        //}
 
         IEnumerator TypeLine()
         {

@@ -2,37 +2,29 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed = 5f;
-    public Rigidbody2D rb;
-    public Animator animator;
+    public float moveSpeed = 5f; // Speed of movement
+    public Animator animator;    // Reference to the Animator component
 
-    Vector2 movement;
+    private Vector2 movement;    // Stores movement input
 
     void Update()
     {
-        Vector2 movement = new Vector2(
-            Input.GetAxisRaw("Horizontal"),
-            Input.GetAxisRaw("Vertical")
-        );
+        // Capture input
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
 
+        // Normalize movement to prevent faster diagonal movement
+        movement = movement.normalized;
+
+        // Update Animator Parameters
         animator.SetFloat("MoveX", movement.x);
         animator.SetFloat("MoveY", movement.y);
         animator.SetBool("IsMoving", movement != Vector2.zero);
-
-        // Optional: store last direction for idle
-        if (movement != Vector2.zero)
-        {
-            animator.SetFloat("LastMoveX", movement.x);
-            animator.SetFloat("LastMoveY", movement.y);
-        }
     }
 
     void FixedUpdate()
     {
-        // Move player
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        // Move the player
+        transform.position += new Vector3(movement.x, movement.y, 0) * moveSpeed * Time.fixedDeltaTime;
     }
-
-    
-
 }

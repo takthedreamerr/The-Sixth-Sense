@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: 94707de0c4bfe4544b3e2fb70e2428d5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4462812013437449850
+    second: Mandy's Apartment pin_0
+  - first:
+      213: -2029737794668568729
+    second: Mandy's Apartment pin_1
+  - first:
+      213: -7345879813373049777
+    second: Mandy's Apartment pin_2
+  - first:
+      213: 8271047369615815285
+    second: Mandy's Apartment pin_3
+  - first:
+      213: 1481576972709410858
+    second: Mandy's Apartment pin_4
+  - first:
+      213: -8025649769044116373
+    second: Mandy's Apartment pin_5
+  - first:
+      213: 5526659124707649022
+    second: Mandy's Apartment pin_6
+  - first:
+      213: 5026719824936149713
+    second: Mandy's Apartment pin_7
+  - first:
+      213: -4188482033780229841
+    second: Mandy's Apartment pin_8
+  - first:
+      213: -9190312293207403922
+    second: Mandy's Apartment pin_9
+  - first:
+      213: 3032220952066641179
+    second: Mandy's Apartment pin_10
+  - first:
+      213: -490909101737373206
+    second: Mandy's Apartment pin_11
+  - first:
+      213: 6013201108138020456
+    second: Mandy's Apartment pin_12
+  - first:
+      213: -7445317716507795685
+    second: Mandy's Apartment pin_13
+  - first:
+      213: 6591802418534759103
+    second: Mandy's Apartment pin_14
+  - first:
+      213: -2635261219599694246
+    second: Mandy's Apartment pin_15
+  - first:
+      213: 5896420320734679060
+    second: Mandy's Apartment pin_16
+  - first:
+      213: 6846419167282705970
+    second: Mandy's Apartment pin_17
+  - first:
+      213: -4550988388351350097
+    second: Mandy's Apartment pin_18
+  - first:
+      213: 1042295921913864861
+    second: Mandy's Apartment pin_19
+  - first:
+      213: 9183348796689124230
+    second: Mandy's Apartment pin_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mandy's Apartment pin_0
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 278
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68907b76e18e012c0800000000000000
+      internalID: -4462812013437449850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandy's Apartment pin_1
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 253
+        width: 339
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f5891da3ce4d3e0800000000000000
+      internalID: -2029737794668568729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandy's Apartment pin_2
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 207
+        width: 25
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44cf29da313e0a90800000000000000
+      internalID: -7345879813373049777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandy's Apartment pin_3
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 88
+        width: 119
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5723162c2c9a8c270800000000000000
+      internalID: 8271047369615815285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandy's Apartment pin_4
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 89
+        width: 128
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a283ebd286e9f8410800000000000000
+      internalID: 1481576972709410858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandy's Apartment pin_5
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 106
+        width: 71
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6cfd688e0a2f9090800000000000000
+      internalID: -8025649769044116373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandy's Apartment pin_6
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 99
+        width: 70
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5eed24133a2bc40800000000000000
+      internalID: 5526659124707649022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandy's Apartment pin_7
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 87
+        width: 77
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2abbe4c0f72c540800000000000000
+      internalID: 5026719824936149713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandy's Apartment pin_8
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 46
+        width: 78
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f297c6428c58fd5c0800000000000000
+      internalID: -4188482033780229841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandy's Apartment pin_9
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 182
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e62977469a3757080800000000000000
+      internalID: -9190312293207403922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandy's Apartment pin_10
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 106
+        width: 55
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1dcd68f3ec941a20800000000000000
+      internalID: 3032220952066641179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandy's Apartment pin_11
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 48
+        width: 68
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae110fdd5c0ff29f0800000000000000
+      internalID: -490909101737373206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandy's Apartment pin_12
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 106
+        width: 71
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e4d8d6c8e237350800000000000000
+      internalID: 6013201108138020456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandy's Apartment pin_13
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 94
+        width: 126
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f51abdbfaeca890800000000000000
+      internalID: -7445317716507795685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandy's Apartment pin_14
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 104
+        width: 103
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fba3352ff59ca7b50800000000000000
+      internalID: 6591802418534759103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandy's Apartment pin_15
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 107
+        width: 75
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a56c56b02ebad6bd0800000000000000
+      internalID: -2635261219599694246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandy's Apartment pin_16
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 99
+        width: 70
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41019c78a0b44d150800000000000000
+      internalID: 5896420320734679060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandy's Apartment pin_17
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 94
+        width: 75
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 236bf4175fd530f50800000000000000
+      internalID: 6846419167282705970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandy's Apartment pin_18
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 173
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faae3674c24a7d0c0800000000000000
+      internalID: -4550988388351350097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandy's Apartment pin_19
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 142
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92a3806e9af67e00800000000000000
+      internalID: 1042295921913864861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mandy's Apartment pin_20
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 86
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b8a2b331fc17f70800000000000000
+      internalID: 9183348796689124230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mandy's Apartment pin_0: -4462812013437449850
+      Mandy's Apartment pin_1: -2029737794668568729
+      Mandy's Apartment pin_10: 3032220952066641179
+      Mandy's Apartment pin_11: -490909101737373206
+      Mandy's Apartment pin_12: 6013201108138020456
+      Mandy's Apartment pin_13: -7445317716507795685
+      Mandy's Apartment pin_14: 6591802418534759103
+      Mandy's Apartment pin_15: -2635261219599694246
+      Mandy's Apartment pin_16: 5896420320734679060
+      Mandy's Apartment pin_17: 6846419167282705970
+      Mandy's Apartment pin_18: -4550988388351350097
+      Mandy's Apartment pin_19: 1042295921913864861
+      Mandy's Apartment pin_2: -7345879813373049777
+      Mandy's Apartment pin_20: 9183348796689124230
+      Mandy's Apartment pin_3: 8271047369615815285
+      Mandy's Apartment pin_4: 1481576972709410858
+      Mandy's Apartment pin_5: -8025649769044116373
+      Mandy's Apartment pin_6: 5526659124707649022
+      Mandy's Apartment pin_7: 5026719824936149713
+      Mandy's Apartment pin_8: -4188482033780229841
+      Mandy's Apartment pin_9: -9190312293207403922
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

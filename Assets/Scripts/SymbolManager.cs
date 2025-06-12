@@ -14,7 +14,7 @@ public class SymbolManager : MonoBehaviour
 
     [Header("Symbol Tracking")]
     private int symbolsCollected = 0;
-    private int totalSymbols = 8;
+    private int totalSymbols = 6;
 
     [Header("UI Panels")]
     public GameObject answerInputPanel;

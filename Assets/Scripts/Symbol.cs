@@ -28,6 +28,12 @@ public class Symbol : MonoBehaviour
             SymbolManager.Instance.SymbolCollected();
         }
     }
+
+    public bool IsCollected()
+    {
+        return isCollected;
+    }
+
 }
 
 
