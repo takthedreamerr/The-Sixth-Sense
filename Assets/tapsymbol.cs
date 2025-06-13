@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ClickHereFinger : MonoBehaviour
+public class tapsymbol : MonoBehaviour  
 {
     public float amplitude = 10f;  // How far it moves (pixels)
     public float frequency = 1f;   // How fast it moves
@@ -23,8 +23,8 @@ public class ClickHereFinger : MonoBehaviour
     void Start()
     {
         if (fingerClicker != null)
-            fingerClicker.SetActive(false );    
+            fingerClicker.SetActive(true);
 
-                    // 
+        // 
     }
 }

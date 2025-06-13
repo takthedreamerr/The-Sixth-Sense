@@ -5,6 +5,7 @@ public class Symbol : MonoBehaviour
     public bool triggersRememberMessage = false; // Check this for the 3 special symbols
     public SpriteRenderer spriteRenderer; // The visible symbol sprite
     private bool isCollected = false;
+    public FingerFollowAndBounceUI fingerPrompt; // assign in Inspector
 
     private void OnMouseDown()
     {
@@ -26,6 +27,10 @@ public class Symbol : MonoBehaviour
 
             // Notify SymbolManager that this symbol was collected
             SymbolManager.Instance.SymbolCollected();
+
+            if (fingerPrompt != null)
+                fingerPrompt.HideFinger();
+
         }
     }
 

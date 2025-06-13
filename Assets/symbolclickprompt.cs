@@ -2,35 +2,39 @@ using UnityEngine;
 
 public class SymbolClickPrompt : MonoBehaviour
 {
-    public GameObject clickPrompt; // Assign the "click here" image
-    public SpriteRenderer symbolSprite; // Assign the symbol's renderer
+    
+    public GameObject clickPrompt;
 
-    private Symbol symbolLogic;
+    
+    public SpriteRenderer symbolSprite;
 
-    void Start()
+    public Symbol symbolLogic;
+
+    private void Start()
     {
+        // Hide prompt at start
         if (clickPrompt != null)
-            clickPrompt.SetActive(false);
+            clickPrompt.SetActive(true);
 
         symbolLogic = GetComponent<Symbol>();
     }
 
-    void Update()
+    private void Update()
     {
-        // Show prompt only when the symbol is visible and not yet collected
-        if (!symbolLogic.IsCollected() && symbolSprite.enabled)
+        // Safety check for references
+        if (clickPrompt == null || symbolLogic == null || symbolSprite == null)
+            return;
+
+        // If symbol is visible and not yet collected, show prompt
+        if (symbolSprite.enabled && !symbolLogic.IsCollected())
         {
-            if (clickPrompt != null && !clickPrompt.activeSelf)
-            {
+            if (!clickPrompt.activeSelf)
                 clickPrompt.SetActive(true);
-            }
         }
         else
         {
-            if (clickPrompt != null && clickPrompt.activeSelf)
-            {
+            if (clickPrompt.activeSelf)
                 clickPrompt.SetActive(false);
-            }
         }
     }
 }

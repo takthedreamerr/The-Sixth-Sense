@@ -7,6 +7,7 @@ public class FloatingObject : MonoBehaviour
 
     private Vector3 startPos;
     private bool isBouncing = true;
+    
 
     void Start()
     {
@@ -28,4 +29,7 @@ public class FloatingObject : MonoBehaviour
         isBouncing = false;
         transform.position = startPos;  // Reset to original position
     }
+    
+
 }
+
