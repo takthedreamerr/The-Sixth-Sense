@@ -1,4 +1,4 @@
-using UnityEngine;
+ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 
@@ -23,8 +23,9 @@ public class ItemSlot : MonoBehaviour
 
         quantityText.text = quantity.ToString();
         quantityText.enabled = true;
+
         itemImage.sprite = itemSprite;
-        itemImage.enabled = true;
+        //itemImage.enabled = true;
     }
 
     public void ClearSlot()
@@ -36,6 +37,7 @@ public class ItemSlot : MonoBehaviour
 
         itemImage.sprite = null;
         itemImage.enabled = false;
-        quantityText.enabled = false;
     }
 }
+
+  
