@@ -4,7 +4,7 @@ public class ClickHereFinger : MonoBehaviour
 {
     public float amplitude = 10f;  // How far it moves (pixels)
     public float frequency = 1f;   // How fast it moves
-
+    
     private Vector3 startPos;
     public GameObject fingerClicker;
 

@@ -5,24 +5,26 @@ using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
+    [Header("UI Elements")]
     public GameObject dialoguePanel;
     public TextMeshProUGUI dialogueText;
     public Image characterImage;
     public Button continueButton;
 
+    [Header("Dialogue Content")]
     public string[] dialogueLines;
     public Sprite characterSprite;
-
     public float typingSpeed = 0.05f;
+
+    [Header("Signposting")]
+    public GameObject casefileArrow;        // The arrow sprite (assign in Inspector)
+    public GameObject player;
+    public GameObject signpostingObject;    // The floating object to pan to
+    private CameraPan cameraPan;
 
     private int currentLine = 0;
     private Coroutine typingCoroutine;
     private bool isTyping = false;
-
-    // References for signposting sequence
-    public GameObject player;
-    public GameObject signpostingObject;   // Assign the bouncing/clickable object
-    private CameraPan cameraPan;
 
     void Start()
     {
@@ -31,11 +33,21 @@ public class DialogueManager : MonoBehaviour
         // Start dialogue at the beginning
         StartDialogue();
 
-        // Disable player movement while dialogue is active
-        player.GetComponent<MOVEMENTS>().enabled = false;
+        // Disable player movement during dialogue
+        if (player != null)
+            player.GetComponent<MOVEMENTS>().enabled = false;
 
-        // Disable bouncing initially (handled in ObjectInteraction script)
-        signpostingObject.GetComponent<FloatingObject>().enabled = false;
+        // Disable bouncing initially
+        if (signpostingObject != null)
+        {
+            FloatingObject floatScript = signpostingObject.GetComponent<FloatingObject>();
+            if (floatScript != null)
+                floatScript.enabled = false;
+        }
+
+        // Hide arrow at start
+        if (casefileArrow != null)
+            casefileArrow.SetActive(false);
     }
 
     public void StartDialogue()
@@ -55,6 +67,12 @@ public class DialogueManager : MonoBehaviour
 
         typingCoroutine = StartCoroutine(TypeSentence(dialogueLines[currentLine]));
         continueButton.interactable = false;
+
+        // Show arrow if this line contains "casefile"
+        if (dialogueLines[currentLine].ToLower().Contains("casefile") && casefileArrow != null)
+        {
+            StartCoroutine(EnableArrowAfterTyping());
+        }
     }
 
     IEnumerator TypeSentence(string sentence)
@@ -87,21 +105,20 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
-            // Dialogue ends
+            // End of dialogue
             dialoguePanel.SetActive(false);
 
-            // Re-enable player movement
-            player.GetComponent<MOVEMENTS>().enabled = true;
+            if (player != null)
+                player.GetComponent<MOVEMENTS>().enabled = true;
 
-            // Start the signposting sequence:
-            
-            cameraPan.StartPan();
+            if (cameraPan != null)
+                cameraPan.StartPan();
 
-            
-            ObjectInteraction interaction = signpostingObject.GetComponent<ObjectInteraction>();
-            if (interaction != null)
+            if (signpostingObject != null)
             {
-                interaction.StartSignposting();
+                ObjectInteraction interaction = signpostingObject.GetComponent<ObjectInteraction>();
+                if (interaction != null)
+                    interaction.StartSignposting();
             }
         }
     }
@@ -109,12 +126,29 @@ public class DialogueManager : MonoBehaviour
     private void SkipTyping()
     {
         if (typingCoroutine != null)
-        {
             StopCoroutine(typingCoroutine);
-        }
 
         dialogueText.text = dialogueLines[currentLine];
         isTyping = false;
         continueButton.interactable = currentLine < dialogueLines.Length - 1;
     }
+
+    IEnumerator EnableArrowAfterTyping()
+    {
+        while (isTyping)
+        {
+            yield return null;
+        }
+
+        if (casefileArrow != null)
+            casefileArrow.SetActive(true);
+    }
+
+    // Call this from the Casefile button’s OnClick()
+    public void HideCasefileArrow()
+    {
+        if (casefileArrow != null)
+            casefileArrow.SetActive(false);
+    }
 }
+

@@ -260,8 +260,8 @@ Camera:
   m_GameObject: {fileID: 251029593}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -528,6 +528,7 @@ GameObject:
   - component: {fileID: 1445771420}
   - component: {fileID: 1445771419}
   - component: {fileID: 1445771418}
+  - component: {fileID: 1445771421}
   m_Layer: 5
   m_Name: change Scene
   m_TagString: Untagged
@@ -649,6 +650,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1445771416}
   m_CullTransparentMesh: 1
+--- !u!114 &1445771421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445771416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4e19c63aec09ee47a0157bda513fe5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickSound: {fileID: 8300000, guid: 82bea52d95d5c044b876a41aa59ec4f1, type: 3}
 --- !u!1 &1463507172
 GameObject:
   m_ObjectHideFlags: 0
@@ -683,8 +697,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -645.05695, y: -89.34905}
-  m_SizeDelta: {x: 384.909, y: 767.049}
+  m_AnchoredPosition: {x: -645.05695, y: -97.498}
+  m_SizeDelta: {x: 384.909, y: 783.35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1463507174
 MonoBehaviour:
@@ -786,9 +800,9 @@ MonoBehaviour:
   dialogueText: {fileID: 1840435625}
   characterNameText: {fileID: 1840435625}
   dialogueLines:
-  - "Im Asanda, a private investigaor with a sixth sense ability that helps me see
-    things that nobody else can. \nMy ability helps me see symbols in the drak, and
-    solve the toughest cases\n\nlets begin \r\n\r"
+  - "I'm Asanda,  a private investigator with a sixth sense that reveals what others
+    can't.\nIn the shadows, I see hidden symbols and uncover the truth behind the
+    toughest cases.\n\nLet\u2019s begin."
   typingSpeed: 0.05
 --- !u!1 &1840435623
 GameObject:
@@ -824,8 +838,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0, y: -46.45}
-  m_SizeDelta: {x: 1042.9, y: 545.347}
+  m_AnchoredPosition: {x: -14.206, y: -7.383}
+  m_SizeDelta: {x: 1103.277, y: 350.008}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1840435625
 MonoBehaviour:
@@ -847,7 +861,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: .
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -912,7 +926,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 11.957825, y: -5.832382, z: 0, w: 18.342773}
+  m_margin: {x: 11.957825, y: 6.5983276, z: 0, w: 2.360443}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -960,8 +974,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000024796, y: -0.0025482178}
-  m_SizeDelta: {x: 1920, y: 899.24}
+  m_AnchoredPosition: {x: -0.000024796, y: 0.279}
+  m_SizeDelta: {x: 1920, y: 978.902}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1848191650
 MonoBehaviour:

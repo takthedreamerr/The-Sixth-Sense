@@ -1,31 +1,30 @@
 using UnityEngine;
 
-public class hoodiemovement : MonoBehaviour 
+public class clickmovement : MonoBehaviour 
 {
-    public float amplitude = 0.5f;
-    public float frequency = 1f;
+    public float amplitude = 10f;  // How far it moves (pixels)
+    public float frequency = 1f;   // How fast it moves
 
     private Vector3 startPos;
-    private bool isBouncing = true;
+    public GameObject fingerClicker;
 
-    void Start()
+    void OnEnable()
     {
-        startPos = transform.position;
+        startPos = transform.localPosition;
     }
 
     void Update()
     {
-        if (isBouncing)
-        {
-            Vector3 tempPos = startPos;
-            tempPos.y += Mathf.Sin(Time.time * Mathf.PI * frequency) * amplitude;
-            transform.position = tempPos;
-        }
+        Vector3 tempPos = startPos;
+        tempPos.y += Mathf.Sin(Time.time * Mathf.PI * frequency) * amplitude;
+        transform.localPosition = tempPos;
     }
 
-    public void StopBouncing()
+    void Start()
     {
-        isBouncing = false;
-        transform.position = startPos;  // Reset to original position
+        if (fingerClicker != null)
+            fingerClicker.SetActive(true);  
+
+        // 
     }
 }

@@ -7,6 +7,7 @@ public class ObjectInteraction : MonoBehaviour
 
     private FloatingObject floatingScript;
     private AudioSource audioSource;
+    private bool hasBeenClicked = false;
 
     public FingerPromptManager fingerPromptManager;   // Assign in Inspector
     public GameObject highlightRing;                  
@@ -15,8 +16,9 @@ public class ObjectInteraction : MonoBehaviour
     {
         floatingScript = GetComponent<FloatingObject>();
         audioSource = GetComponent<AudioSource>();
-
-        infoPanel.SetActive(false);
+           
+          
+      infoPanel.SetActive(false);
 
         if (audioSource != null)
             audioSource.Stop();
@@ -80,10 +82,24 @@ public class ObjectInteraction : MonoBehaviour
             {
                 if (panelVisible)
                 {
-                    infoPanel.SetActive(false);
-                    panelVisible = false;
+                    infoPanel.SetActive(false );
+                    panelVisible = false; 
                 }
             }
         }
     }
+    private void OnMouseDown()
+    {
+        if (!hasBeenClicked)
+        {
+            hasBeenClicked = true;
+            if (infoPanel != null)
+            {
+                infoPanel.SetActive(true); // Show the panel
+            }
+        }
+    }
+   
+
 }
+

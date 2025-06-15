@@ -14,6 +14,14 @@ public class DoorScript : MonoBehaviour
     [Header("Sixth Sense Symbols")]
     public GameObject[] sixthSenseSymbols;
 
+    [Header("Audio")]
+    public AudioSource doorOpenSound;
+
+    [Header("Camera")]
+    public Transform mainCamera;       // Assign the Main Camera transform here
+    public float panDuration = 2f;     // Time to pan to the door
+    public float cameraHoldTime = 1f;  // Time to stay at the door before returning
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -28,7 +36,7 @@ public class DoorScript : MonoBehaviour
         {
             if (symbol != null)
             {
-                symbol.SetActive(false); // Disables the GameObject and its AudioSource
+                symbol.SetActive(false);
             }
         }
     }
@@ -37,7 +45,11 @@ public class DoorScript : MonoBehaviour
     {
         animator.SetTrigger("Open");
 
-        // Enable lights when door opens
+        // Play door sound
+        if (doorOpenSound != null)
+            doorOpenSound.Play();
+
+        // Enable lights
         if (globalLight != null) globalLight.enabled = true;
         if (playerLight != null) playerLight.enabled = true;
 
@@ -45,23 +57,72 @@ public class DoorScript : MonoBehaviour
         foreach (GameObject symbol in sixthSenseSymbols)
         {
             if (symbol != null)
-            {
-                symbol.SetActive(true); // Enables GameObject and AudioSource
-            }
+                symbol.SetActive(true);
         }
 
-        // Optional: disable door collider after a short delay
+        // Start camera pan
+        if (mainCamera != null)
+        {
+            StartCoroutine(PanToDoorAndBack());
+        }
+
+        // Disable door collider after short delay
         StartCoroutine(DisableColliderAfterDelay(0.5f));
     }
 
     private IEnumerator DisableColliderAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
-        doorCollider.enabled = false;
+        if (doorCollider != null)
+            doorCollider.enabled = false;
     }
+
     public void DisableLights()
     {
         if (globalLight != null) globalLight.enabled = false;
         if (playerLight != null) playerLight.enabled = false;
+    }
+
+    private IEnumerator PanToDoorAndBack()
+    {
+        Transform player = GameObject.FindGameObjectWithTag("Player").transform;
+        Transform cam = mainCamera;
+
+        Vector3 originalPosition = cam.position;
+        Transform originalParent = cam.parent;
+
+        // Detach camera from player
+        cam.parent = null;
+
+        Vector3 targetPosition = new Vector3(transform.position.x, transform.position.y, originalPosition.z);
+        float elapsed = 0f;
+
+        while (elapsed < panDuration)
+        {
+            cam.position = Vector3.Lerp(originalPosition, targetPosition, elapsed / panDuration);
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+
+        cam.position = targetPosition;
+
+        // Pause at the door
+        yield return new WaitForSeconds(cameraHoldTime);
+
+        // Pan back to player
+        elapsed = 0f;
+        Vector3 returnPosition = new Vector3(player.position.x, player.position.y, originalPosition.z);
+
+        while (elapsed < panDuration)
+        {
+            cam.position = Vector3.Lerp(targetPosition, returnPosition, elapsed / panDuration);
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+
+        cam.position = returnPosition;
+
+        // Re-parent camera to player
+        cam.parent = originalParent;
     }
 }
