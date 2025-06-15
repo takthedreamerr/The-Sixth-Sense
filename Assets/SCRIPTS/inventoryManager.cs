@@ -7,43 +7,61 @@ public class InventoryManager : MonoBehaviour
     public GameObject InventoryMenu;
     private bool menuActivated = false;
     public ItemSlot[] itemSlot;
- 
-    // Update is called once per frame
+    public static InventoryManager Instance;
+
+    // Dictionary to track collected items by name
+    private Dictionary<string, bool> collectedItems = new Dictionary<string, bool>();
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
     void Update()
     {
         if (Input.GetButtonDown("Inventory"))
         {
             menuActivated = !menuActivated;
             InventoryMenu.SetActive(menuActivated);
+
+            // When opening inventory, refresh to show any newly collected items
+            if (menuActivated)
+            {
+                RefreshInventoryUI();
+            }
         }
     }
 
- 
- void RefreshInventory()
-{
-    if (Input.GetKeyDown(KeyCode.N))
+    public void AddItemToInventory(string itemName, int quantity, Sprite itemSprite)
     {
-        Debug.Log("N key pressed");
-        menuActivated = !menuActivated;
-        InventoryMenu.SetActive(menuActivated);
-    }
-
- 
-     
-}
-    
-    public void AddItem(string itemName, int quantity, Sprite itemSprite)
-{
-    for (int i = 0; i < itemSlot.Length; i++)
-    {
-        if (!itemSlot[i].isFull)
+        // Mark item as collected
+        if (!collectedItems.ContainsKey(itemName))
         {
-            itemSlot[i].AddItem(itemName, quantity, itemSprite);
-            return;
+            collectedItems.Add(itemName, true);
         }
+
+        // Add to first available slot
+        for (int i = 0; i < itemSlot.Length; i++)
+        {
+            if (!itemSlot[i].IsFull)
+            {
+                itemSlot[i].AddItem(itemName, quantity, itemSprite);
+                return;
+            }
+        }
+        Debug.LogWarning("Inventory is full. Could not add item: " + itemName);
     }
 
-    Debug.LogWarning("Inventory is full. Could not add item: " + itemName);
-}
-
+    void RefreshInventoryUI()
+    {
+        // This ensures all collected items are visible in inventory
+        // You might not need this if AddItemToInventory handles everything
+    }
 }

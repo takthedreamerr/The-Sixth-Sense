@@ -2,7 +2,10 @@ using UnityEngine;
 
 public class CollectibleSymbol : MonoBehaviour
 {
-    public bool triggersRememberMessage; // Set this to true in Inspector for 3 symbols
+    public bool triggersRememberMessage; // You can keep or remove this
+    public string itemName; // "Mandy's couch", "Noise complaint_0", etc.
+    public Sprite itemSprite; // Assign in Inspector
+    public int quantity = 1;
 
     private bool isCollected = false;
     private SpriteRenderer spriteRenderer;
@@ -19,16 +22,17 @@ public class CollectibleSymbol : MonoBehaviour
         if (isCollected) return;
 
         isCollected = true;
-
-        // Disable symbol
         spriteRenderer.enabled = false;
         symbolCollider.enabled = false;
 
-        // Trigger "remember..." message if this symbol is marked
-        //if (triggersRememberMessage && RememberMessage.Instance != null)//
+        // Add to inventory
+        InventoryManager.Instance.AddItemToInventory(itemName, quantity, itemSprite);
+
+        /* If you later implement the message system, uncomment this:
+        if (triggersRememberMessage && RememberMessage.Instance != null)
         {
-           // RememberMessage.Instance.ShowMessage();//
+            RememberMessage.Instance.ShowMessage();
         }
+        */
     }
 }
-
