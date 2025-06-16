@@ -7,7 +7,7 @@ public class LevelMenu : MonoBehaviour
 {
     public void OpenLevel(int levelId)
     {
-      SceneManager.LoadSceneAsync (1);
+        SceneManager.LoadSceneAsync(1);
         
     }
 }

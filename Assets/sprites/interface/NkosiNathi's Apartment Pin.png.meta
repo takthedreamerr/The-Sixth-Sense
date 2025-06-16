@@ -1,0 +1,936 @@
+fileFormatVersion: 2
+guid: 9a7d12244049a784595c46213582bafa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8304643635660607597
+    second: NkosiNathi's Apartment Pin_0
+  - first:
+      213: -2760627245420922157
+    second: NkosiNathi's Apartment Pin_1
+  - first:
+      213: 5233721924690058914
+    second: NkosiNathi's Apartment Pin_2
+  - first:
+      213: -3362504417293487654
+    second: NkosiNathi's Apartment Pin_3
+  - first:
+      213: -4008477123530049924
+    second: NkosiNathi's Apartment Pin_4
+  - first:
+      213: -2121264756496599604
+    second: NkosiNathi's Apartment Pin_5
+  - first:
+      213: 4976656758227643011
+    second: NkosiNathi's Apartment Pin_6
+  - first:
+      213: -2207436862497516610
+    second: NkosiNathi's Apartment Pin_7
+  - first:
+      213: -5766663513911847047
+    second: NkosiNathi's Apartment Pin_8
+  - first:
+      213: -3532327828072115741
+    second: NkosiNathi's Apartment Pin_9
+  - first:
+      213: 6805269842046450412
+    second: NkosiNathi's Apartment Pin_10
+  - first:
+      213: -8176011634007830717
+    second: NkosiNathi's Apartment Pin_11
+  - first:
+      213: -8459821558780996523
+    second: NkosiNathi's Apartment Pin_12
+  - first:
+      213: 7435448399109164223
+    second: NkosiNathi's Apartment Pin_13
+  - first:
+      213: -4555764502217290868
+    second: NkosiNathi's Apartment Pin_14
+  - first:
+      213: 7896208837632904014
+    second: NkosiNathi's Apartment Pin_15
+  - first:
+      213: -3765535480439811526
+    second: NkosiNathi's Apartment Pin_16
+  - first:
+      213: -8158487236664642463
+    second: NkosiNathi's Apartment Pin_17
+  - first:
+      213: -3449141302243981268
+    second: NkosiNathi's Apartment Pin_18
+  - first:
+      213: -3623962957922851066
+    second: NkosiNathi's Apartment Pin_19
+  - first:
+      213: 6758364073327542723
+    second: NkosiNathi's Apartment Pin_20
+  - first:
+      213: -3482059431348628597
+    second: NkosiNathi's Apartment Pin_21
+  - first:
+      213: 7727499806821872408
+    second: NkosiNathi's Apartment Pin_22
+  - first:
+      213: -3746163810044876944
+    second: NkosiNathi's Apartment Pin_23
+  - first:
+      213: -3674256417482117948
+    second: NkosiNathi's Apartment Pin_24
+  - first:
+      213: 2500008326836415961
+    second: NkosiNathi's Apartment Pin_25
+  - first:
+      213: -4582828876126583403
+    second: NkosiNathi's Apartment Pin_26
+  - first:
+      213: -449740908591535323
+    second: NkosiNathi's Apartment Pin_27
+  - first:
+      213: -1681402525823122712
+    second: NkosiNathi's Apartment Pin_28
+  - first:
+      213: 2435090226728921612
+    second: NkosiNathi's Apartment Pin_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NkosiNathi's Apartment Pin_0
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 90
+        width: 117
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6052c10365004370800000000000000
+      internalID: 8304643635660607597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NkosiNathi's Apartment Pin_1
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 253
+        width: 339
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dabb6f852840b9d0800000000000000
+      internalID: -2760627245420922157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NkosiNathi's Apartment Pin_2
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 182
+        width: 25
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae135e6c5ae1a840800000000000000
+      internalID: 5233721924690058914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NkosiNathi's Apartment Pin_3
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 63
+        width: 119
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad13a8b3c0cf551d0800000000000000
+      internalID: -3362504417293487654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NkosiNathi's Apartment Pin_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 58
+        width: 70
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7636b14b470f58c0800000000000000
+      internalID: -4008477123530049924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NkosiNathi's Apartment Pin_5
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 184
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5f67261f0cf82e0800000000000000
+      internalID: -2121264756496599604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NkosiNathi's Apartment Pin_6
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 211
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38aa43344f2a01540800000000000000
+      internalID: 4976656758227643011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NkosiNathi's Apartment Pin_7
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 64
+        width: 74
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb39bba7edb9d51e0800000000000000
+      internalID: -2207436862497516610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NkosiNathi's Apartment Pin_8
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 184
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97714125612b8ffa0800000000000000
+      internalID: -5766663513911847047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NkosiNathi's Apartment Pin_9
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 211
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1d8813e86aafec0800000000000000
+      internalID: -3532327828072115741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NkosiNathi's Apartment Pin_10
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 87
+        width: 67
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea7bdf8ddc217e50800000000000000
+      internalID: 6805269842046450412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NkosiNathi's Apartment Pin_11
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 157
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f808bbcb8f88e80800000000000000
+      internalID: -8176011634007830717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NkosiNathi's Apartment Pin_12
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 81
+        width: 55
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 554daa54d1da89a80800000000000000
+      internalID: -8459821558780996523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NkosiNathi's Apartment Pin_13
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 69
+        width: 26
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc06ae9ce4003760800000000000000
+      internalID: 7435448399109164223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NkosiNathi's Apartment Pin_14
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 74
+        width: 70
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b010d925ca6c0c0800000000000000
+      internalID: -4555764502217290868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NkosiNathi's Apartment Pin_15
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 81
+        width: 71
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4bc8671a18f49d60800000000000000
+      internalID: 7896208837632904014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NkosiNathi's Apartment Pin_16
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 69
+        width: 76
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3251436e612ebbc0800000000000000
+      internalID: -3765535480439811526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NkosiNathi's Apartment Pin_17
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 69
+        width: 25
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 164bb02751b37ce80800000000000000
+      internalID: -8158487236664642463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NkosiNathi's Apartment Pin_18
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 157
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c288e9b82403220d0800000000000000
+      internalID: -3449141302243981268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NkosiNathi's Apartment Pin_19
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 81
+        width: 54
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607a5dde3e815bdc0800000000000000
+      internalID: -3623962957922851066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NkosiNathi's Apartment Pin_20
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 23
+        width: 68
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1437d31588acd50800000000000000
+      internalID: 6758364073327542723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NkosiNathi's Apartment Pin_21
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 81
+        width: 71
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b839aab556d3dafc0800000000000000
+      internalID: -3482059431348628597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NkosiNathi's Apartment Pin_22
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 69
+        width: 126
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 813748bd1289d3b60800000000000000
+      internalID: 7727499806821872408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NkosiNathi's Apartment Pin_23
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 79
+        width: 103
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 077e9dfdcd3f20cc0800000000000000
+      internalID: -3746163810044876944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NkosiNathi's Apartment Pin_24
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 82
+        width: 75
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc674e514b620dc0800000000000000
+      internalID: -3674256417482117948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NkosiNathi's Apartment Pin_25
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 74
+        width: 70
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd6a90e350d1b220800000000000000
+      internalID: 2500008326836415961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NkosiNathi's Apartment Pin_26
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 69
+        width: 75
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59582140b658660c0800000000000000
+      internalID: -4582828876126583403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NkosiNathi's Apartment Pin_27
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 117
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ba076c60332c9f0800000000000000
+      internalID: -449740908591535323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NkosiNathi's Apartment Pin_28
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 82
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e24edbaf457aa8e0800000000000000
+      internalID: -1681402525823122712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NkosiNathi's Apartment Pin_29
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 61
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ae338d8ad2bc120800000000000000
+      internalID: 2435090226728921612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NkosiNathi's Apartment Pin_0: 8304643635660607597
+      NkosiNathi's Apartment Pin_1: -2760627245420922157
+      NkosiNathi's Apartment Pin_10: 6805269842046450412
+      NkosiNathi's Apartment Pin_11: -8176011634007830717
+      NkosiNathi's Apartment Pin_12: -8459821558780996523
+      NkosiNathi's Apartment Pin_13: 7435448399109164223
+      NkosiNathi's Apartment Pin_14: -4555764502217290868
+      NkosiNathi's Apartment Pin_15: 7896208837632904014
+      NkosiNathi's Apartment Pin_16: -3765535480439811526
+      NkosiNathi's Apartment Pin_17: -8158487236664642463
+      NkosiNathi's Apartment Pin_18: -3449141302243981268
+      NkosiNathi's Apartment Pin_19: -3623962957922851066
+      NkosiNathi's Apartment Pin_2: 5233721924690058914
+      NkosiNathi's Apartment Pin_20: 6758364073327542723
+      NkosiNathi's Apartment Pin_21: -3482059431348628597
+      NkosiNathi's Apartment Pin_22: 7727499806821872408
+      NkosiNathi's Apartment Pin_23: -3746163810044876944
+      NkosiNathi's Apartment Pin_24: -3674256417482117948
+      NkosiNathi's Apartment Pin_25: 2500008326836415961
+      NkosiNathi's Apartment Pin_26: -4582828876126583403
+      NkosiNathi's Apartment Pin_27: -449740908591535323
+      NkosiNathi's Apartment Pin_28: -1681402525823122712
+      NkosiNathi's Apartment Pin_29: 2435090226728921612
+      NkosiNathi's Apartment Pin_3: -3362504417293487654
+      NkosiNathi's Apartment Pin_4: -4008477123530049924
+      NkosiNathi's Apartment Pin_5: -2121264756496599604
+      NkosiNathi's Apartment Pin_6: 4976656758227643011
+      NkosiNathi's Apartment Pin_7: -2207436862497516610
+      NkosiNathi's Apartment Pin_8: -5766663513911847047
+      NkosiNathi's Apartment Pin_9: -3532327828072115741
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

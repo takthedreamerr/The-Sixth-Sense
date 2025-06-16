@@ -1,59 +1,80 @@
-using System.Collections;
-using System.Collections.Generic;
-using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class MOVEMENTS : MonoBehaviour
 {
-    public float moveSpeed = 5f; // Speed of movement
+    [Header("Movement Settings")]
+    public float moveSpeed = 5f;
 
-    // Update is called once per frame
+    [Header("Animation")]
+    public Animator animator;
+
+    [Header("Audio")]
+    private AudioSource footstepAudio;
+
+    private Vector2 movement;
+
+    void Start()
+    {
+        footstepAudio = GetComponent<AudioSource>();
+
+        if (footstepAudio == null)
+            Debug.LogWarning("No AudioSource found on the player!");
+    }
+
     void Update()
     {
-        Vector3 moveDirection = Vector3.zero;
-
-        //Check for WASD and Arrow Key inputs 
-        if (Input.GetKey(KeyCode.W))
-        { 
-            moveDirection.y += 1;    
-        }
-        if (Input.GetKey(KeyCode.S)) 
-        {
-            moveDirection.y -= 1;    
-        }
-        if (Input.GetKey(KeyCode.A))
-        { 
-            moveDirection.x -= 1;    
-        }
-        if (Input.GetKey(KeyCode.D)) 
-        {
-            moveDirection.x += 1;    
-        }
-        if (Input.GetKey(KeyCode.UpArrow))
-        {
-            moveDirection.y += 1;  
-        }
-        if (Input.GetKey(KeyCode.DownArrow))
-        { 
-            moveDirection.y -= 1;
-        }
-        if (Input.GetKey(KeyCode.LeftArrow))    
-        {
-            moveDirection.x -= 1;
-        }   
-        if (Input.GetKey(KeyCode.RightArrow))
-        {
-            moveDirection.x += 1;
-        }
-         
-
-        // Move the player 
-        transform.position += moveDirection.normalized * moveSpeed * Time.deltaTime;
-
-        
-
-
+        HandleInput();
+        MovePlayer();
+        UpdateAnimation();
+        HandleFootsteps();
     }
-}     
 
+    void HandleInput()
+    {
+        movement = Vector2.zero;
+
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
+            movement.y += 1;
+        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
+            movement.y -= 1;
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+            movement.x -= 1;
+        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+            movement.x += 1;
+
+        movement = movement.normalized;
+    }
+
+    void MovePlayer()
+    {
+        transform.position += (Vector3)movement * moveSpeed * Time.deltaTime;
+    }
+
+    void UpdateAnimation()
+    {
+        animator.SetFloat("MoveX", movement.x);
+        animator.SetFloat("MoveY", movement.y);
+        animator.SetBool("IsMoving", movement != Vector2.zero);
+
+        // Optional: Store last direction for idle state
+        if (movement != Vector2.zero)
+        {
+            animator.SetFloat("LastMoveX", movement.x);
+            animator.SetFloat("LastMoveY", movement.y);
+        }
+    }
+
+    void HandleFootsteps()
+    {
+        if (movement != Vector2.zero)
+        {
+            if (!footstepAudio.isPlaying)
+                footstepAudio.Play();
+        }
+        else
+        {
+            if (footstepAudio.isPlaying)
+                footstepAudio.Stop();
+        }
+    }
+}
