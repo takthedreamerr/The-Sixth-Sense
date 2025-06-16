@@ -198,7 +198,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Asanda Intro Sprite_0: 923515941066571491
+      Asanda Intro Sprite_1: -6984716967455063391
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

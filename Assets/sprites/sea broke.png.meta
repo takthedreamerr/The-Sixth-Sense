@@ -298,7 +298,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sea broke_0: -282100683360630181
+      sea broke_1: 8037817460670099054
+      sea broke_2: -8194016453523665687
+      sea broke_3: 2689772652175944862
+      sea broke_4: -340798627689758196
+      sea broke_5: 2536551697862265967
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
