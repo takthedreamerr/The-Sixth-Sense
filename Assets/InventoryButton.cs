@@ -35,15 +35,20 @@ public class InventoryItemButton : MonoBehaviour, IPointerClickHandler
         {
             availableParticle = Instantiate(clickParticleEffect, transform);
             particlePool.Add(availableParticle);
-            
+
             // UI Particle Configuration
             var main = availableParticle.main;
             main.scalingMode = ParticleSystemScalingMode.Hierarchy; // Important for UI
             availableParticle.transform.localPosition = Vector3.zero;
+            availableParticle = Instantiate(clickParticleEffect, 
+                              transform.position, 
+                              Quaternion.identity, 
+                              transform); // Parent to button
         }
 
         // Reset and play
         availableParticle.transform.position = transform.position;
         availableParticle.Play();
     }
+    
 }
